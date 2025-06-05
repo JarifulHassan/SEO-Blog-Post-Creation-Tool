@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import google.generativeai as genai
 import random
 
-GEMINI_API_KEY = "AIzaSyB0m8pptohxO1kDgOXzQKlvxam1kqOmTec"  # Your API key here
+GEMINI_API_KEY = "AIzaSyB0m8pptohxxcrgyyuhO1kDgOXzQKlvxam1kqOmTec"  # Your API key here
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("models/gemini-1.5-flash")
